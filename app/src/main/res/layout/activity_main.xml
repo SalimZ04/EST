@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF4D5"
+    tools:context=".MainActivity">
+
+    <activity
+        android:name=".OtherActivity"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_p1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="248dp"
+
+        android:backgroundTint="#729D39"
+        android:text="Get Started"
+        app:iconTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="380dp"
+        android:layout_height="330dp"
+        app:srcCompat="@drawable/removebg"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
